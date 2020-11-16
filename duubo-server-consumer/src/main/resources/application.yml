@@ -1,0 +1,11 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /
+dubbo:
+  application:
+    name: dubbo-server-user-consumer
+  consumer:
+    check: false
+  registry:
+    address: zookeeper://81.69.40.191:2181
